@@ -23,6 +23,7 @@ app.use('/api/auth', (req, res) => {
     res.send('register and login')
 })
 
+app.use('/api/expense', expenseRoutes)
 
 app.use('/', (req, res) => {
     res.send("hello world")

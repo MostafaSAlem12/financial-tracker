@@ -10,6 +10,6 @@ const ExpenseSchema = new mongoose.Schema({
   }
 });
 
-const Expense = mongoose.model("User", ExpenseSchema);
+const Expense = mongoose.model("Expense", ExpenseSchema);
 
 module.exports = Expense;
